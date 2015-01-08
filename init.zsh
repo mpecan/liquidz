@@ -2,8 +2,8 @@
 export CLICOLOR=1
 
 # liquidprompt
-if [ -f $(brew --prefix)/bin/liquidprompt ]; then
-  . $(brew --prefix)/bin/liquidprompt
+if [ -f $(brew --prefix)/share/liquidprompt ]; then
+  . $(brew --prefix)/share/liquidprompt
 fi
 
 # completions
